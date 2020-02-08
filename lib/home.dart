@@ -61,11 +61,6 @@ Initstate
           )
         ],
       ),
-      body: FutureBuilder <Videos>(
-        future: getfilms(search),
-        builder: (context, snapshot){
-
-        })
     );
   }
 }
