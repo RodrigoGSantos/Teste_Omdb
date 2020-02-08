@@ -24,6 +24,15 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+
+Initstate 
+  getFilmes(search).then((response){
+
+
+     Print (response); 
+
+});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
